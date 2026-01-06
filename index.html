@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OXTATTOOX - Estudio de Tatuajes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Allura&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="info-cards-left">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <div class="card-icon">📍</div>
+                    <div class="card-label">Dirección</div>
+                </div>
+                <div class="flip-card-back">
+                    <div class="card-content">Calle Feria de Abril y Romeria del Rocio<br>Fuengirola, Espana</div>
+                </div>
+            </div>
+        </div>
+        
+        <a href="https://www.google.com/maps/search/?api=1&query=Calle+Feria+de+Abril+y+Romeria+del+Rocio%2C+Fuengirola%2C+Málaga%2C+España" target="_blank" rel="noopener noreferrer" class="flip-card-link">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="card-icon">🗺️</div>
+                        <div class="card-label">Ubicación</div>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="card-content">Ver en mapa</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="info-cards-right">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <div class="card-icon">📞</div>
+                    <div class="card-label">Teléfono</div>
+                </div>
+                <div class="flip-card-back">
+                    <div class="card-content">+34 622889856</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <div class="card-icon">✉️</div>
+                    <div class="card-label">Email</div>
+                </div>
+                <div class="flip-card-back">
+                    <div class="card-content">info@oxtattoox.com</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="header-section">
+        <h1 class="main-title">OXTATTOOX</h1>
+        <div class="title-divider"></div>
+        <h2 class="subtitle">Claudia Rocule</h2>
+        <p class="artist-title">Artista Tatuadora Profesional</p>
+        <a href="presupuesto.html" class="budget-card">
+            <div class="budget-card-content">
+                <img src="img/C1j.JPG" alt="Logo OXTATTOOX" class="budget-logo">
+                <span class="budget-text">Pide tu presupuesto aquí</span>
+            </div>
+        </a>
+    </header>
+    
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-slides" id="carouselSlides">
+                <div class="carousel-slide">
+                    <img src="img/1.jpg" alt="Tattoo 1 - @oxtattoox">
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/2.webp" alt="Tattoo 2 - @oxtattoox">
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/C1.png" alt="Tattoo 3 - @oxtattoox">
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/C4.png" alt="Tattoo 4 - @oxtattoox">
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/C2.png" alt="Tattoo 7 - @oxtattoox">
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/C8c.png" alt="Tattoo 7 - @oxtattoox">
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/C9.png" alt="Tattoo 7 - @oxtattoox">
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/C3.png" alt="Tattoo 8 - @oxtattoox">
+                </div>
+            </div>
+            <button class="carousel-button prev" onclick="previousSlide()">❮</button>
+            <button class="carousel-button next" onclick="nextSlide()">❯</button>
+            <div class="carousel-indicators" id="indicators"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    
